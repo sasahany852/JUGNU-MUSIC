@@ -187,7 +187,7 @@ module.exports = async (client) => {
       .setImage(
         guild.banner
           ? guild.bannerURL({ size: 4096 })
-          : `http://cdn.wallpaperinhd.net/wp-content/uploads/2018/11/02/Music-Background-Wallpaper-025.jpg`
+          : `https://images-ext-1.discordapp.net/external/qUw-j0iyrQP_iFSqGVP0AtJvwmNG1FKYxVr6YISct9M/https/cdn.al-ain.com/lg/images/2020/5/20/143-131153-mg-1-million-cars-by-2024_700x400.jpg?format=webp`
       )
       .setFooter({
         text: guild.name,
